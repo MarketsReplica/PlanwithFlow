@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.579fc720.css",
+    "main.js": "/static/js/main.f6fa096d.js",
+    "static/media/buyingCar.png": "/static/media/buyingCar.1a66e2819b4495c5e8ba.png",
+    "static/media/familyBudget.png": "/static/media/familyBudget.17ca0c75d6bf6f1b45ed.png",
+    "static/media/planningLoan.png": "/static/media/planningLoan.58d29d0abf0debee0473.png",
+    "static/media/singleBudget.png": "/static/media/singleBudget.497c9267aca7b4c96bd0.png",
+    "static/media/canvas.png": "/static/media/canvas.1493f97d1663e21acb71.png",
+    "static/media/agentButton.png": "/static/media/agentButton.e6970ff9673de96cc7a2.png",
+    "index.html": "/index.html",
+    "main.579fc720.css.map": "/static/css/main.579fc720.css.map",
+    "main.f6fa096d.js.map": "/static/js/main.f6fa096d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.579fc720.css",
+    "static/js/main.f6fa096d.js"
+  ]
+}

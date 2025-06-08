@@ -1,0 +1,6 @@
+openai
+flask
+flask-cors
+datetime
+typing
+python-dateutil
