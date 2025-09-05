@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.library-button {
+  display: none !important;
+}
+
+.hide_optional_menu {
+  .App-menu__left {
+    display: none !important;
+  }
+
+  .App-menu_top__left {
+    display: none !important;
+  }
+}
+
+.show_optional_menu_expanded {
+  .App-menu__left {
+    left: 86px !important;
+    top: 86px;
+    // display: none !important;
+  }
+}
+
+.App-menu__left {
+  left: 186px;
+  top: 86px;
+  transition: all 0.3s;
+  // display: none !important;
+}
+
+.App-toolbar {
+  display: none !important;
+  //.Stack_horizontal {
+  //  display: flex !important;
+  //  flex-direction: column;
+  //}
+}
+
+//
+//.App-toolbar-container {
+//  position: fixed;
+//  left: 16px;
+//  top: 50%;
+//  transform: translateY(-50%);
+//}
+
+.HintViewer {
+  display: none !important;
+}
+
+.App-toolbar__divider {
+  height: 1px !important;
+  width: 100% !important;
+  margin-bottom: 4px !important;
+}
+
+.ant-layout-sider {
+  .ant-menu {
+    background-color: #fdfdfd;
+    border-radius: 8px 8px 0px 0px;
+  }
+}
+
+.ant-layout {
+  padding: 0 !important;
+}
+.ant-layout-sider-has-trigger {
+  padding: 0 !important;
+}
+
+.ant-layout-sider-trigger {
+  position: relative !important;
+  top: 0 !important;
+  background-color: #fafafa !important;
+
+  border-radius: 0px 0px 8px 8px;
+
+  span {
+    svg {
+      color: #333;
+      fill: #333;
+    }
+  }
+}
+
+.layer-ui__wrapper__footer-right {
+  display: none !important;
+}
+
+.layer-ui__wrapper__footer-left {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 16px;
+}
+
+.App-menu_top__left {
+  // display: none !important;
+  transition: all 0.3s;
+
+}
+
+.customized-scrollbar {
+  // write code that makes scrollbar thumb blue and make the scrollbar thumb rounded\
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
