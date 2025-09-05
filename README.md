@@ -59,8 +59,6 @@ After deployment, change `src/appConfig.js`:
 - `llmAPI`: base URL of your functions (e.g., `https://us-central1/<your-project>.cloudfunctions.net`)
 - `templateServer`: where templates are served (or switch to bundled templates in `templates/`)
 
-Important: do not expose secrets in the frontend. Keys belong in the backend environment only.
-
 ## Project Structure
 
 - `src/` app code (components, services, store, helpers, types)
@@ -81,10 +79,6 @@ Contributions are welcome! Please open an issue or PR. Before contributing, cons
 - Documentation and examples
 
 ## License
+MIT
 
-License to be determined. If you plan to publish publicly, choose and add a license file (MIT recommended in `OPEN_SOURCE_PLANNING.md`).
-
-## Security & Responsible Use
-
-- Never commit `.env` files or API keys. Rotate any leaked keys immediately.
 - The app provides educational financial modeling. It is not financial advice.
